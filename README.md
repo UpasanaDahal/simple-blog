@@ -1,4 +1,4 @@
-Hey there! 👋
+Hey there!
 Welcome to SimpleBlog, a basic blog application built using Django. This is a beginner-friendly project that helps you understand how to work with Django views, models, templates, and forms. It’s simple, clean, and does just what it says.
 
 What This App Can Do:
@@ -29,7 +29,7 @@ simpleblog/
 └── manage.py
 
 Follow this to run this project in your machine:
--git clone https://github.com/your-username/simpleblog.git
+-git clone https://github.com/UpasanaDahal/simple-blog
 -cd simpleblog
 -python -m venv venv
 -venv\Scripts\activate
