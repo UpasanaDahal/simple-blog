@@ -1,0 +1,10 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+<h2>{{ post.title }}</h2>
+<p><strong>By:</strong> {{ post.author }}</p>
+<p><em>{{ post.created_at|date:"F j, Y, g:i a" }}</em></p>
+<hr>
+<p>{{ post.content }}</p>
+<a href="{% url 'post_list' %}" class="btn btn-secondary mt-3">← Back to all posts</a>
+<a href="{% url 'delete_post' post.id %}" class="btn btn-danger mt-3">Delete Post</a>
+{% endblock %}
